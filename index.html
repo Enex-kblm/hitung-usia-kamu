@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Usia</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link ke file CSS -->
+</head>
+<body>
+    <h1>Hitung Usia</h1>
+    <form onsubmit="event.preventDefault(); hitungUsia();">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" required>
+
+        <label for="tanggal">Tanggal Lahir:</label>
+        <input type="number" id="tanggal" min="1" max="31" required>
+
+        <label for="bulan">Bulan Lahir:</label>
+        <input type="text" id="bulan" required>
+
+        <label for="tahun">Tahun Lahir:</label>
+        <input type="number" id="tahun" required>
+
+        <button type="submit">Hitung Usia</button>
+    </form>
+
+    <div id="hasil"></div>
+
+    <script src="script.js"></script> <!-- Link ke file JavaScript -->
+</body>
+</html>

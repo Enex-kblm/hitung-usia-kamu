@@ -1,0 +1,105 @@
+/* Mengatur dasar font dan latar belakang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #333;
+    margin-top: 30px; /* Mengurangi margin atas judul */
+}
+
+/* Styling untuk formulir */
+form {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px; /* Mengurangi margin atas formulir */
+}
+
+/* Gaya label dan input */
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #007bff;
+}
+
+/* Gaya tombol */
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Gaya untuk area hasil */
+#hasil {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #333;
+    text-align: center;
+    background-color: #e9f7ef;
+    border: 1px solid #bce5c4;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tambahkan style untuk loading */
+.loading {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.download-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px; /* Tambahkan margin atas untuk memberi jarak */
+}
+
+.download-info {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+}
